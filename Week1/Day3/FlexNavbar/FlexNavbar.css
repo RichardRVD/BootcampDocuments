@@ -1,0 +1,54 @@
+*{
+    margin: 1px;
+}
+.nav{
+    background-color: rgb(122, 120, 120);
+    border: whitesmoke;
+    height: 50px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+.nav-links{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+.home{
+    margin-right: 15px;
+    font-size: small;
+}
+.profile{
+    font-size: small;
+    margin-right: 15px;
+}
+.findConnections{
+    font-size: small;
+    margin-right: 15px;
+}
+.signOut{
+    font-size: small;
+    margin-right: 15px;
+}
+.btn{
+    background-color: rgb(9, 204, 204);
+    border-color: black;
+    box-shadow: 1.5px 1.5px 1px .5px rgb(3, 3, 3);
+    color: white;
+    font-size: small;
+}
+a{
+    text-decoration: none;
+    color: lightgrey;
+}
+#active{
+    color: white;
+}
