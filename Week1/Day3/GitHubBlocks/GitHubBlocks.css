@@ -1,0 +1,78 @@
+.container{
+    width: 950px;
+    height: 950px;
+    background-color: lightgray;
+    margin-top: 20px auto;
+    margin-left: 20px;
+    margin-right: 20px; 
+    padding-top: 5px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    font-size: 30pt;
+    font-family: sans-serif;
+    ;
+}
+h5{
+    text-align: center;
+}
+
+
+.box1{
+    background-color: red;
+    width: 910px;
+    height: 260px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.box2{
+    background-color: rgb(36, 33, 33);
+    width: 910px;
+    height: 260px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box3{
+    background-color: rgb(8, 0, 255);
+    width: 910px;
+    height: 260px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+img.firecat{
+    height: 200px;
+}
+img.dojocat{
+    height: 200px;
+}
+img.plumber{
+    height: 200px;
+}
+img.founder{
+    height: 200px;
+}
+img.link{
+    height: 200px;
+}
+img.octobiwan{
+    height: 200px;
+}
+img.octoliberty{
+    height: 200px;
+}
+img.stormtrooper{
+    height: 200px;
+}
