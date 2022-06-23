@@ -1,0 +1,25 @@
+.row{
+    margin: 0 auto;
+    display: flex;
+}
+.col{
+    background-color: darkcyan;
+    flex: 1;
+    height: 40px;
+    margin: 10px;
+    color: lightgray;
+}
+.col-2{
+    background-color: darkcyan;
+    color: lightgray;
+    flex: 2;
+    margin: 10px;
+    height: 40px;
+}
+.col-3{
+    background-color: darkcyan;
+    color: lightgray;
+    flex: 3;
+    height: 40px;
+    margin: 10px;
+}
