@@ -1,0 +1,70 @@
+.container{
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    outline: gray;
+    border-style: ridge;
+}
+
+.user-circle{
+    height: 100px;
+    width: 100px;
+    filter: invert();
+    position:relative;
+    bottom: 50px;
+    left: 30px;
+    border-color: rgb(7, 7, 7);
+    border-width: 3pt;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+.head{
+    flex: auto;
+    height: 100px;
+    background-color: rgb(76, 161, 195);
+    position:relative
+}
+.name{
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+.map-marker{
+    height: 23px;
+    width: 15px;
+    position: relative;
+    bottom: 45px;
+    left: 20px;
+}
+.map{
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+    font-size: 15pt;
+}
+.gear{
+    height: 15px;
+    position: relative;
+    bottom:  -18px;
+    left: 20px;
+}
+.edit{
+    position: relative;
+    bottom: 5px;
+    left: 42px;
+}
+.job{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+.education{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
