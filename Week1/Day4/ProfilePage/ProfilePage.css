@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+    display: flex;
+}
+.navLeft{
+    height: 70px;
+    width: 320px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    left: 90px;
+}
+h6 #myProfile{
+    font-weight: bolder;
+    color: white;
+}
+.navRight{
+    height: 70px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+}
+.navRight button{
+    position: relative;
+    top: 20px;
+    left: 175px;
+    background-color: #17a2b8;
+    color: white;
+    width: 70px;
+    border: none;
+}
+
+.mainContent{
+    height: 500px;
+    background-color: white;
+}
+
+.userCard{
+    height: 210px;
+    width: 235px;
+    background-color: green;
+    position: absolute;
+    top: 110px;
+    left: 115px;
+}
+.userCardBanner{
+    height: 60px;
+    width: 238px;
+    background-color: #17a2b8;
+}
+.userCardContent{
+    height: 150px;
+    width: 235px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.userCardContent h2{
+    font-family: Roboto, sans-serif;
+    position: relative;
+    top: 30px;
+    left: 16px;
+}
+.userCardContent p{
+    font-size: 9pt;
+    font-family: Roboto, sans-serif;
+    position: relative;
+    top: 55px;
+    left: 20px;
+}
+.userCardContent a{
+    font-size: x-small;
+    font-family: 'roboto', sans-serif;
+    position: relative;
+    top: 60px;
+    left: 40px;
+    color: blue;
+}
+.ProfPic{
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+.map{
+    position: absolute;
+    height: 15px;
+    left: 20px;
+    top: 121px;
+}
+.loc{
+    position: absolute;
+    top: 123px;
+    left: 38px;
+    font-family: roboto, sans-serif;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+.gear{
+    position: absolute;
+    height: 15px;
+    left: 20px;
+    bottom: 15px;
+}
+.requestBox{
+    height: 95px;
+    width: 170px;
+    background-color: green;
+    position: relative;
+    top: 40px;
+    left: 390px;
+}
+.reqBoxBanner{
+    height: 35px;
+    width: 172px;
+    background-color: #333333;
+}
+#two{
+    height: 20px;
+    width: 20px;
+    padding: 7px;
+    background-color: #ccc;
+    font-size: 8pt;
+    color: black;
+    top: 9px;
+    left: 9px;
+    position: relative;
+    border-radius: 50%;
+}
+#connReq{
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 10pt;
+    position: relative;
+    left: 35px;
+    top: -6px;
+}
+.requestBoxContent{
+    height: 90px;
+    width: 170px;
+    background-color: white;
+    border: 1px solid grey;
+}
+#todd{
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.todd{
+    position: relative;
+    top: -15px;
+    left: 40px;
+}
+#accept1{
+    height: 20px;
+    position: relative;
+    top: -40px;
+    left: 110px;
+}
+#close1{
+    height: 20px;
+    position: relative;
+    top: -40px;
+    left: 110px;
+}
+#accept2{
+    height: 20px;
+    position: relative;
+    top: -40px;
+    left: 110px;
+}
+#close2{
+    height: 20px;
+    position: relative;
+    top: -40px;
+    left: 110px;
+}
+#phil{
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: -37px;
+}
+.phil{
+    position: relative;
+    top: -20px;
+    left: 40px;
+}
+.educationsBox{
+    height: 161px;
+    width: 235px;
+    background-color: white;
+    position: absolute;
+    top: 360px;
+    left: 115px;
+    border: 1px solid gray;
+}
+.educBoxBanner{
+    height: 40px;
+    width: 237px;
+    background-color: #333333;
+}
+.educBoxContent{
+    height: 120px;
+    width: 235px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.educBoxContent h5{
+    font-family: roboto, sans-serif;
+    text-decoration: solid;
+    font-size: 10pt;
+    font-weight: bolder;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+#when{
+    font-family: roboto, sans-serif;
+    color: gray;
+}
+.educBoxContent h6{
+    font-family: roboto, sans-serif;
+    font-size: 9pt;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+.eduText{
+    color: white;
+    position: relative;
+    top: 12px;
+    left: 12px;
+    font-family: roboto, sans-serif;
+    font-size: 10pt;
+}
+.connectionsBox{
+    height: 185px;
+    width: 170px;
+    background-color: green;
+    position: relative;
+    top: 100px;
+    left: 390px;
+
+}
+.connectBoxBanner{
+    height: 35px;
+    width: 172px;
+    background-color: #333333;
+}
+.connectBoxContent{
+    height: 150px;
+    width: 170px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.arry{
+    position: relative;
+    top: -55px;
+    left: 50px;
+}
+.alayne{
+    position: relative;
+    top: -42px;
+    left: 50px;
+}
+.anne{
+    position: relative;
+    top: -30px;
+    left: 50px;
+}
+.adrien{
+    position: relative;
+    top: -15px;
+    left: 50px;
+}
+#alayne{
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    top: -14px;
+    left: 11px;
+}
+#anne{
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    top: -2px;
+    left: 11px;
+}
+#arry{
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    left: 11px;
+}
+#adrien{
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    top: 9px;
+    left: 10px;
+}
+#fiveHun{
+    height: 20px;
+    width: 20px;
+    padding: 7px;
+    background-color: #ccc;
+    font-size: 8pt;
+    color: black;
+    top: 9px;
+    left: 9px;
+    position: relative;
+    border-radius: 50%;
+}
+#conn{
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 10pt;
+    position: relative;
+    left: 50px;
+    top: -8px;
+}
+
+.connectBoxLink{
+    height: 35px;
+    width: 170px;
+    background-color: white;
+    border-top: none;
+    border: 1px solid gray;
+}
+.connectBoxLink a{
+    position: relative;
+    font-family: roboto;
+    font-size: 10pt;
+    top: 6px;
+    left: 11px;
+    color: blue;
+}
