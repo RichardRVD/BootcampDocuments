@@ -1,0 +1,154 @@
+h1{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    font-size: 20pt;
+    width: 650px;
+    position: absolute;
+    left: 110px;
+}
+.profile{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    position: absolute;
+    top: 150px;
+    left: 110px;
+}
+.name{
+    position: relative;
+    top: 200px;
+    left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    font-weight: bolder;
+}
+.avatar{
+    position: relative;
+    top: 115px;
+    left: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+}
+.profile img{
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+.feed{
+    position: relative;
+    top: 85px;
+    left: 340px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+}
+.box1{
+    height: 125px;
+    width: 375px;
+    border: 2px solid black;
+    position: absolute;
+    left: 400px;
+    top: 150px;
+}
+.box1 h2{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+}
+.box1 p{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 40px;
+    width: 300px;
+}
+.box1 button{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffc107;
+    width: 50px;
+    height: 25px;
+    box-shadow: 2px 2px 2px;
+    position: relative;
+    top: -120px;
+    left: 300px;
+}
+.likes{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -98px;
+    left: 230px;
+}
+.box2{
+    height: 125px;
+    width: 375px;
+    border: 2px solid black;
+    position: absolute;
+    left: 400px;
+    top: 300px;
+}
+.box2 h2{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+}
+.box2 p{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 40px;
+    width: 300px;
+}
+.box2 button{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffc107;
+    width: 50px;
+    height: 25px;
+    box-shadow: 2px 2px 2px;
+    position: relative;
+    top: -120px;
+    left: 300px;
+}
+.likes{
+    font-family: 'Roboto' sans-serif;
+    position: relative;
+    top: -98px;
+    left: 230px;
+}
+.box3{
+    height: 125px;
+    width: 375px;
+    border: 2px solid black;
+    position: absolute;
+    left: 400px;
+    top: 450px;
+}
+.box3 h2{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+}
+.box3 p{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 40px;
+    width: 300px;
+}
+.box3 button{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffc107;
+    width: 50px;
+    height: 25px;
+    box-shadow: 2px 2px 2px;
+    position: relative;
+    top: -120px;
+    left: 300px;
+}
+.likes{
+    font-family: 'Roboto' sans-serif;
+    position: relative;
+    top: -98px;
+    left: 230px;
+}
