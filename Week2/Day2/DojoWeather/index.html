@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dojo Weather</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="nav1">
+            <div class="nav1Right">DojoWeather</div>
+            <div class="nav1Left">
+                <div id="burbank" onclick="alert('Loading weather report')" class="city1">Burbank</div>
+                <div id="chicago" onclick="alert('Loading weather report')" class="city2">Chicago</div>
+                <div id="dallas" onclick="alert('Loading weather report')" class="city3">Dallas</div>
+            </div>
+        </div>
+        <div class="nav2">
+            <div class="nav2Left"><h3>San Jose</h3></div>
+            <div class="nav2Right">
+                <p>show temperature in <select name="degreeType" type="°" id="degrees">
+                    <option onclick="weatherSelect()" value="°C">°C</option>
+                    <option onclick="weatherSelect()" value="°F">°F</option></select>
+                </p>
+            </div>
+        </div>
+        <div class="nav3">
+            <div class="today">
+                <h4 id="toText">Today</h4>
+                <img src="some_rain.png" alt="Rainy">
+                <p>some rain</p>
+                <h5 id="toDeg1">24°</h5>
+                <h6 id="toDeg2">18°</h6>
+            </div>
+            <div class="tomorrow">
+                <h4 id="tomText">Tomorrow</h4>
+                <img src="some_sun.png" alt="Sunny">
+                <p>some sun</p>
+                <h5 id="tomDeg1">27°</h5>
+                <h6 id="tomDeg2">19°</h6>
+            </div>
+            <div class="friday">
+                <h4>Friday</h4>
+                <img src="some_clouds.png" alt="Cloudy">
+                <p id="cloudText">some clouds</p>
+                <h5 id="friDeg1">21°</h5>
+                <h6 id="friDeg2">16°</h6>
+            </div>
+            <div class="saturday">
+                <h4 id="satText">Saturday</h4>
+                <img src="some_sun.png" alt="Sunny">
+                <p>some sun</p>
+                <h5 id="satDeg1">26°</h5>
+                <h6 id="satDeg2">21°</h6>
+            </div>
+        </div>
+        <div id="nav4" class="nav4">
+            <img class="cookie" src="cookie.png" alt="cookie image">
+            <h3>Stop! Cookie time</h3>
+            <p>We use cookies (sadly not the edible ones) to personalize</p> 
+             <p>content and ads, to provide social media features and to</p> 
+             <p>analyse our traffic. <a href="">Read more...</a></p>
+            <button onclick="hide()">I Accept</button>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
