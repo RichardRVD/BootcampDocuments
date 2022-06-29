@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="navbar">
+        <div class="navLeft">
+            <h1>Profile</h1>
+            <h6>Home</h6>
+            <h6><span id="myProfile"></span>My Profile</h6>
+            <h6>Find Connections</h6>
+        </div>
+        <div class="navRight">
+            <button>Sign Out</button>
+        </div>
+    </div>
+    <div class="mainContent">
+        <div class="userCard">
+            <div class="userCardBanner">
+                
+            </div>
+            <div class="userCardContent">
+                <img class="ProfPic" src="user-circle.png" alt="User Image">
+                <h2 id="nameTag">Jane Doe</h2>
+                <img class="map"src="map-marker.png" alt="map marker">
+                <div class="loc">Seattle</div>
+                <!-- <p>Seattle</p> -->
+                <p>Developer | Engineer | Problem Solver</p>
+                <p>Master of shadows and the Internet!</p>
+                <img class="gear"src="gear.png" alt="gear">
+                <a id="edit" onclick="editProfile()">Edit Profile</a>
+            </div>
+        </div>
+        <div class="requestBox">
+            <div class="reqBoxBanner"><span id="two">2</span><div id="connReq">Connection Requests</div>
+            </div>
+            
+            <div class="requestBoxContent">
+                <div id="toddPic"class="todd" onclick="hide(this)">
+                    <img id="todd"src="todd-s.jpg" alt="Todds Picture">Todd E
+                <img id="accept1" onclick="accept1()"  src="accept-circle.png" alt="accept">
+                <img id="close1" onclick="close1()" src="close-circle.png" alt="close">
+            </div>
+                <div class="phil" onclick="hide2(this)">
+                    <img id="phil"src="phil-s.jpg" alt="Phils Picture">Phil K
+                    <img id="accept2" onclick="accept2()" src="accept-circle.png" alt="accept">
+                    <img id="close2" onclick="close2()" src="close-circle.png" alt="close">
+                </div>
+            </div>
+        </div>
+        <div class="educationsBox">
+            <div class="educBoxBanner">
+                <div class="eduText">Education</div></div>
+            <div class="educBoxContent">
+                <h5>Coding Dojo - Full Stack Bootcamp</h5>
+                <h6 id="when">Dec 2019 - Mar 2020</h6>
+                <h6>Triple black belt in Python, MERN, and C#...</h6>
+            </div>
+        </div>
+        <div class="connectionsBox">
+            <div class="connectBoxBanner"><span id="fiveHun">500</span><div id="conn">Your Connections</div>
+            <div class="connectBoxContent">
+                <img id="adrien" src="adrien-s.jpg" alt="">
+                <div class="adrien">Adrien D</div>
+                <img id="anne" src="anne-s.jpg" alt="">
+                <div class="anne">Anne J</div>
+                <img id="alayne" src="alayne-s.jpg" alt="">
+                <div class="alayne">Alayne T</div>
+                <img id="arry" src="arry-s.jpg" alt="">
+                <div class="arry">Arry Y</div>
+            </div>
+            <div class="connectBoxLink"><a href="">View More</a></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
