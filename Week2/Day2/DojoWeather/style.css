@@ -177,7 +177,7 @@
     width: 700px;
     height: 100px;
     padding-right: 10px;
-    position: absolute;
+    position: fixed;
     margin-left: 100px;
     padding-top: 50px;
     border: 2px solid black;
