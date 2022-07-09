@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    <div class="cont" style="height: 200px; width: auto;display: flex; justify-content: center;align-items: center; padding-top: 100px;">
+        <h1>You've visited this page</h1>
+    </div>
+    <h2 style="display:flex; align-items:center; justify-content:center; margin-bottom: 100px;"> {{session['button_1']}} times!</h2>
+    <div class="buttons" style=" display:flex; justify-content: space-around">
+        <a class="button" href="/button/1" style="display:flex; font-size: 20pt; justify-content: space-around; align-items: center; width: 250px; height:150px; background-color: lightseagreen; color: white; border: 2px solid black; box-shadow: 2px 2px 2px;">Add two visits</a>
+        <a class="button" href="/reset" style="display:flex; font-size: 20pt; justify-content: space-around; align-items: center; width: 250px; height:150px; background-color: red; color: white; border: 2px solid black; box-shadow: 2px 2px 2px; ">Reset</a>
+    </div>
+</body>
+</html>
