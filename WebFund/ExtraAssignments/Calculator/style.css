@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#calculator{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #222;
+}
+.row{
+    background-color: #222;
+}
+
+#calculator .row button{
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-style: hidden;
+    color: white;
+    font-size: 25pt;
+}
+
+
+.operator{
+    background-color: orange;
+    font-size: 25pt;
+}
